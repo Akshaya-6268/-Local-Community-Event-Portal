@@ -81,13 +81,21 @@
         }
 
         th{
+            border: 1px solid black;
+            color: white;
             padding: 20px;
         }
-
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
 
         video{
             display: block;
             margin: auto;
             border: 3px solid black;
             border-radius: 10px;
+        }
+        input:focus {
+        outline: 3px solid orange;
         }
