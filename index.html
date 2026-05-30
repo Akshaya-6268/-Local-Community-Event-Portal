@@ -4,113 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community Website</title>
-
     <style>
         body{
             background-color: lightgray;
             font-family: Arial, sans-serif;
         }
-
-        /* Navigation */
-        nav{
-            background-color: darkgray;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a{
-            padding: 10px;
-            display: inline-block;
-            margin-right: 20px;
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-        }
-
-        /* Welcome Banner */
-        #welcome{
-            background-color: blue;
-            text-align: center;
-            color: white;
-            padding: 20px;
-        }
-
-        /* Events Section */
-        #events{
-            background-color: green;
-            text-align: center;
-            padding: 20px;
-        }
-
-        #events h2{
-            color: yellow;
-        }
-
-        /* Home Section */
-        #home{
-            background-color: red;
-            text-align: center;
-            padding: 20px;
-        }
-
-        #home h2{
-            color: yellow;
-        }
-
-        #home p{
-            color: white;
-        }
-
-        /* Contact Section */
-        #contact{
-            background-color: purple;
-            text-align: center;
-            padding: 20px;
-        }
-
-        #contact h2{
-            color: yellow;
-        }
-
-        #contact p{
-            color: white;
-        }
-
-        /* Table */
-        table{
-            background-color: lightpink;
-            width: 100%;
-            border-collapse: collapse;
-            margin: auto;
-            text-align: center;
-        }
-
-        /* Images */
-        .event-image{
-            width: 300px;
-            height: auto;
-            border: 2px solid black;
-            border-radius: 10px;
-        }
-
-        th{
-            padding: 20px;
-        }
-
-        /* Video */
-        video{
-            display: block;
-            margin: auto;
-            border: 3px solid black;
-            border-radius: 10px;
-        }
-
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
     <nav>
         <a href="#home">Home</a>
         <a href="#events">Events</a>
@@ -118,7 +22,6 @@
         <a href="register.html" target="_blank">Register</a>
     </nav>
 
-    <!-- Welcome Banner -->
     <div id="welcome">
         <h1>Welcome to the Website!</h1>
 
@@ -127,19 +30,16 @@
         </span>
     </div>
 
-    <!-- Events Section -->
     <section id="events">
         <h2>Events</h2>
         <p style="color:white;">Explore our exciting community events.</p>
     </section>
 
-    <!-- Home Section -->
     <section id="home">
-        <h2>Home</h2>
-        <p>Welcome to the home section!</p>
+        <h2 style="color:red;">Home</h2>
+        <p style="color:white;">Welcome to the home section!</p>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: communityevents@gmail.com</p>
@@ -147,10 +47,9 @@
 
     <br>
 
-    <!-- Event Gallery -->
     <table border="1">
 
-        <caption style="color:brown; font-size:25px; font-weight:bold;">
+        <caption style="color:brown; font-size:25px; font-weight:bold;background-color:lightgray;" >
             Past Events
         </caption>
 
@@ -216,10 +115,9 @@
 
     <br><br>
 
-    <!-- Video Heading -->
-    <h3 style="color: darkblue; text-align: center;">Community Event Promo Video</h3>
+    <h3 style="color: darkblue; text-align: center;background-color:lightgray;" >Community Event Promo Video</h3>
 
-    <!-- Video -->
+
     <video width="500" height="300" controls>
         <source src="Music Event Promo Video.mp4" type="video/mp4">
     </video>

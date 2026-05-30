@@ -1,0 +1,93 @@
+        body{
+            background-image: url('city.png');
+            width: 100%;
+            height: 100vh;
+        }
+        nav{
+            background-color: darkgray;
+            padding: 10px;
+            text-align: center;
+        }
+        h3, p {
+            font-family: Arial, sans-serif;
+        }
+        nav a{
+            padding: 10px;
+            display: inline-block;
+            margin-right: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        #welcome {
+            background-color: rgba(0, 0, 255, 0.8);
+            color: #FFFFFF;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #events{
+            background-color: green;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #events h2{
+            color: yellow;
+        }
+
+        #home{
+            background-color: orange;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #home h2{
+            color: yellow;
+        }
+
+        #home p{
+            color: white;
+        }
+        #contact{
+            background-color: purple;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #contact h2{
+            color: yellow;
+        }
+
+        #contact p{
+            color: white;
+        }
+
+ 
+        table{
+            background-color: lightpink;
+            width: 100%;
+            border-collapse: collapse;
+            margin: auto;
+            text-align: center;
+        }
+
+        .event-image{
+            width: 300px;
+            height: auto;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        th{
+            padding: 20px;
+        }
+
+
+        video{
+            display: block;
+            margin: auto;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
